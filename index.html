@@ -5,12 +5,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/grid.css">
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 <body>
-    
-    <script src="./main.js"></script>
+    <div class="main">
+        <div class="grid container">
+            <h1 class="heading">Data Alien Worlds</h1>
+            <div class="row chart">
+                <canvas id="myChart" class="col l-6 m-12 s-12"></canvas>
+                <div class="col l-6 m-12 s-12 info">
+                    <div class="grid">
+                        <form action="" class="row form-contact">
+                            <label for="" class="col l-2 m-8 s-12 label mr-20">Account:</label>
+                            <input type="text" name="account" class="col l-3 m-8 s-12  account mr-20" required>
+                            <input
+                                type="date" class="col l-4 m-8 s-12 date-input mr-20" required 
+                                placeholder="Date" data-id="documents" value="2021-08-21"
+                            />
+                            <input type="button" value="change" class="col l-2 m-8 s-12 change"/>
+                        </form>
+                        <div class="row cards-view">
+                            <div class="col l-3 m-8 s-12 card-view">
+                                <div class="card-view__item tlm">
+                                    <b class="title">Total TLM</b>
+                                    <span class="value">0.0000</span>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-8 s-12 card-view">
+                                <div class="card-view__item usd">
+                                    <b class="title">Total USD</b>
+                                    <span class="value">$0.00</span>
+                                </div>
+                            </div>
+                            <div class="col l-3 m-8 s-12 card-view">
+                                <div class="card-view__item count">
+                                    <b class="title">Count</b>
+                                    <br>
+                                    <span class="value">0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/main.js"></script>
 </body>
 </html>
