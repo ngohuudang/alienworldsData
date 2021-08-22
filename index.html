@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alien Worlds</title>
     <!-- font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/grid.css">
@@ -34,12 +34,14 @@
                             <div class="col l-3 m-8 s-12 card-view">
                                 <div class="card-view__item tlm">
                                     <b class="title">Total TLM</b>
+                                    <br>
                                     <span class="value">0.0000</span>
                                 </div>
                             </div>
                             <div class="col l-3 m-8 s-12 card-view">
                                 <div class="card-view__item usd">
                                     <b class="title">Total USD</b>
+                                    <br>
                                     <span class="value">$0.00</span>
                                 </div>
                             </div>
@@ -58,5 +60,16 @@
         </div>
     </div>
     <script src="./assets/js/main.js"></script>
+    <script>
+        function setup(){
+            let changeBtn = document.querySelector(".change");
+            changeBtn.addEventListener("click", function (e) {
+                drawChart();
+            });
+        }
+        
+        setup();
+
+    </script>
 </body>
 </html>

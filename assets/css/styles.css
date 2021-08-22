@@ -107,6 +107,10 @@ body {
   margin-top: 2rem;
 }
 
+.card-view {
+  padding: 2rem 0;
+}
+
 .card-view__item {
   padding: 15px;
   /* background: rgba(0, 0, 0, 0.18039); */

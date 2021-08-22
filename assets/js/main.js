@@ -1,325 +1,234 @@
-// data copy từ web
-var data_test=
-{"query_time_ms":1133.564,"cached":false,"lib":0,"total":{"value":100,"relation":"eq"},"actions":[{"@timestamp":"2021-08-20T13:54:33.500","timestamp":"2021-08-20T13:54:33.500","block_num":136042550,"trx_id":"be46dcf25fe331d3e40e5ed28e42feaf40cb2d92f0ecb32486f7713cd539f6b7","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0167,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0167 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16234488602,"producer":"ledgerwiseio","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T13:41:56.000","timestamp":"2021-08-20T13:41:56.000","block_num":136041035,"trx_id":"ab06660f2dd11f704ec48199e2ccf41669dbefdb4cbd45ffd6f55cbbd400a2fe","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.133,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1330 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16233324767,"producer":"ledgerwiseio","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T13:28:55.500","timestamp":"2021-08-20T13:28:55.500","block_num":136039474,"trx_id":"cf81456a6050240d525235bc16c1ce2819462efcbcabd4476e89ad3823e6f1a1","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.037,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0370 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16232163270,"producer":"eosiodetroit","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T13:16:51.000","timestamp":"2021-08-20T13:16:51.000","block_num":136038025,"trx_id":"8ad3cd7fa134396d300760a6c35ce9c45cedb4ffb462b49dd202dde6ca0f5885","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1854,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1854 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16231056077,"producer":"liquidstudio","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T13:04:55.500","timestamp":"2021-08-20T13:04:55.500","block_num":136036594,"trx_id":"7d434265a7f43b47034ef3b9568de7b7b722017f90795091ce13c4a508729bae","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0851,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0851 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16229940326,"producer":"alohaeosprod","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T12:50:51.000","timestamp":"2021-08-20T12:50:51.000","block_num":136034905,"trx_id":"ad2c00813e7889d5f8c67f859a224bbd510603aadf058f56be61bd57fe5ab04f","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1009,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1009 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16228636129,"producer":"eosauthority","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T12:37:48.500","timestamp":"2021-08-20T12:37:48.500","block_num":136033340,"trx_id":"1dc78ea60e80274a691d844870bdfc74e91dab814ea09a2fe0bd3e92f841acbf","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0874,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0874 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16227508557,"producer":"blokcrafters","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T12:25:29.000","timestamp":"2021-08-20T12:25:29.000","block_num":136031861,"trx_id":"ba481e15ac06a0f36852d7570980483fc26d878bd46636ab84a8e20024e46a0e","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0817,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0817 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16226410708,"producer":"cryptolions1","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T12:12:35.500","timestamp":"2021-08-20T12:12:35.500","block_num":136030314,"trx_id":"7bd74f267eea9ab4a72d7fb2db470f40d3054b7d8a76e32041d46f21ca6b51cd","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.046,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0460 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16225200294,"producer":"amsterdamwax","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T12:00:14.000","timestamp":"2021-08-20T12:00:14.000","block_num":136028831,"trx_id":"adafe7b6bd637aa19f8e7ba994c0cd44cf9da9326df97c1e3f69515c2cf71a68","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1972,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1972 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16224187744,"producer":"cryptolions1","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T11:48:12.500","timestamp":"2021-08-20T11:48:12.500","block_num":136027388,"trx_id":"64e722bc540d9c4ca7d0d2f2a78231670b6ab0062413cffbe80b08023bcb31ab","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1841,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1841 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16223161327,"producer":"eosphereiobp","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T11:35:21.000","timestamp":"2021-08-20T11:35:21.000","block_num":136025845,"trx_id":"1920d8236819505d5db51207dfa062c100cd21c02ff3d241e06b6511b1473d6d","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0814,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0814 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16221972818,"producer":"eosdacserver","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T11:20:37.500","timestamp":"2021-08-20T11:20:37.500","block_num":136024078,"trx_id":"ec00d87bc3af00b2306881e77b10b45c5ae30ffdfa96b2f43aeafc0f9ad456f4","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1505,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1505 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16220630984,"producer":"eosdacserver","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T11:08:07.500","timestamp":"2021-08-20T11:08:07.500","block_num":136022578,"trx_id":"a49d961cceaf830ab9b6fa24978f0b6df30575f7651533dde13f70e1b895f4eb","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1007,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1007 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16219470251,"producer":"eosdublinwow","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T10:55:17.500","timestamp":"2021-08-20T10:55:17.500","block_num":136021038,"trx_id":"01b9aa2acbacbfa0dd63b752c125d8139b399fc03351c5d4096d0176f0d86e74","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1339,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1339 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16218307089,"producer":"dapplica","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T10:43:21.000","timestamp":"2021-08-20T10:43:21.000","block_num":136019605,"trx_id":"a5c7989924fa85bd640d4ed837c250eb0bcbc4da37c1969709c3c8049445f8ec","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.118,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1180 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16217200201,"producer":"ivote4waxusa","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T10:29:55.500","timestamp":"2021-08-20T10:29:55.500","block_num":136017996,"trx_id":"6f3abbde192a71b64ba644778e933414abc3870d3d2e8f0321ee9bb37fd6ca10","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0534,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0534 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16215954563,"producer":"cryptolions1","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T10:17:49.500","timestamp":"2021-08-20T10:17:49.500","block_num":136016544,"trx_id":"5188f3c1f78478530335f35d57fd3811162a8f84980e871536e07249ff4d94f8","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0963,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0963 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16214819413,"producer":"eosiodetroit","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T10:04:46.500","timestamp":"2021-08-20T10:04:46.500","block_num":136014978,"trx_id":"e2cd7de2feec247416c68e200fdeace0df3d53c0d663e77fa8bea67fa8baf29b","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0501,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0501 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16213633510,"producer":"cryptolions1","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T09:52:14.000","timestamp":"2021-08-20T09:52:14.000","block_num":136013473,"trx_id":"48ffe1e843c4e10cc501ebd1d7b2a7011e6fa4c1961d86ada5e181de9c31f1cc","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0668,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0668 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16212486979,"producer":"dapplica","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T09:38:53.000","timestamp":"2021-08-20T09:38:53.000","block_num":136011871,"trx_id":"c7532b87751e994bf65f9b09fb6b48f341dde5a5e7d96cb34236cd30f63e3291","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1167,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1167 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16211241723,"producer":"waxhiveguild","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T09:25:33.000","timestamp":"2021-08-20T09:25:33.000","block_num":136010271,"trx_id":"edb98fd1432f95d1cabc035c98d33822af05af070262f32dc427c67b5e5b9068","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0987,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0987 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16210046762,"producer":"eosriobrazil","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T09:13:02.000","timestamp":"2021-08-20T09:13:02.000","block_num":136008769,"trx_id":"0d23482a51f1086020c2fe8cdcd24cfc423be7ca10e4d22cf8dc162e756f11c4","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0909,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0909 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16208871390,"producer":"ivote4waxusa","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T09:00:45.500","timestamp":"2021-08-20T09:00:45.500","block_num":136007296,"trx_id":"428e23476e4fab535328cc95eebe7204a0ce80bd8ca42758b78b7a77ad5cf8a8","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1866,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1866 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16207816073,"producer":"nation.wax","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T08:48:02.500","timestamp":"2021-08-20T08:48:02.500","block_num":136005770,"trx_id":"9c302e2b2ad9b7720c534deeeba9ce1ff975aa734b6c894abe9083edd9960a06","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0665,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0665 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16206667786,"producer":"liquidstudio","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T08:34:25.000","timestamp":"2021-08-20T08:34:25.000","block_num":136004135,"trx_id":"65f153e8232fbbd3ce01dc57535a16acb0c7a82087d92b536d8d88fdc7c08d32","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1928,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1928 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16205393923,"producer":"cryptolions1","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T08:21:19.000","timestamp":"2021-08-20T08:21:19.000","block_num":136002563,"trx_id":"fbc8ef488cc430ae1b10712b8eebc16dbb3e1c652273e12c45bc46fec8da46c6","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1037,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1037 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16204189448,"producer":"3dkrenderwax","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T08:08:58.000","timestamp":"2021-08-20T08:08:58.000","block_num":136001081,"trx_id":"53ede3795d1bdaa68acaaf303f3a71d2cdb7ff680ae441d73ab1e4598a1a7aff","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0429,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0429 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16203063251,"producer":"amsterdamwax","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T07:54:30.500","timestamp":"2021-08-20T07:54:30.500","block_num":135999346,"trx_id":"457445b9bf4b6a499b7306026983c26821a8184376a376c9a1f620abe7e9b3b0","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0385,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0385 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16201694765,"producer":"cryptolions1","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T07:42:07.000","timestamp":"2021-08-20T07:42:07.000","block_num":135997859,"trx_id":"607d2444fc6916af31cdc67a5857140500c840c972d7ca8971d4a8b349b9b46a","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0768,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0768 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16200508834,"producer":"eosauthority","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T07:29:52.500","timestamp":"2021-08-20T07:29:52.500","block_num":135996390,"trx_id":"a2095d8bf6bd09925b74c129c4acc973ee2f9a81dea5007f4f49e5981c09bc31","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1085,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1085 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16199337027,"producer":"eosiodetroit","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T07:17:18.500","timestamp":"2021-08-20T07:17:18.500","block_num":135994882,"trx_id":"1cc90824bd5a20d0d8e073e1b650b489f34b97de6e1a55e2a5c8c008eeaca141","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.176,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1760 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16198212110,"producer":"eosphereiobp","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T07:05:24.500","timestamp":"2021-08-20T07:05:24.500","block_num":135993454,"trx_id":"a789f57cb0e7bc242954828a7cebef0066cc056ad4d824c032700a56e06a4547","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0766,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0766 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16197104740,"producer":"teamgreymass","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T06:53:17.500","timestamp":"2021-08-20T06:53:17.500","block_num":135992000,"trx_id":"8e0b8aa4671120c1cb3ed32bd5ad12e72c92859c29cd57e8e497cafd1317e7e9","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1359,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1359 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16196036608,"producer":"alohaeosprod","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T06:41:18.500","timestamp":"2021-08-20T06:41:18.500","block_num":135990562,"trx_id":"d80a3126db55d0fbf3662a2e12f9864b05c559886413e4de78348df913682ced","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0432,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0432 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16194886453,"producer":"eosdacserver","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T06:29:22.500","timestamp":"2021-08-20T06:29:22.500","block_num":135989130,"trx_id":"2bd5d701d63db9e022ada329f1f3b059e5984dc58c30a324a4e8ebcd9d5ae1d4","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.115,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1150 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16193823979,"producer":"ledgerwiseio","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T06:16:15.500","timestamp":"2021-08-20T06:16:15.500","block_num":135987556,"trx_id":"e8eb96bbf4bbc29b4be49a0d2800f83f9809b14de5a50f6cea1fd9dfdac95cf6","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0847,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0847 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16192575379,"producer":"eosdublinwow","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T06:02:31.000","timestamp":"2021-08-20T06:02:31.000","block_num":135985907,"trx_id":"e018ede5e3414f93a5cb8dfcd39b20afeb41fdc7b9249841d686fd010b2e3ad6","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1012,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1012 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16191331150,"producer":"waxhiveguild","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T05:50:25.000","timestamp":"2021-08-20T05:50:25.000","block_num":135984455,"trx_id":"6a8bf51c7a368fd6e1a89afad537829e4e2ced3239bcac8fda4fff2873d4c0d0","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0339,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0339 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16190233808,"producer":"blokcrafters","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T05:38:35.000","timestamp":"2021-08-20T05:38:35.000","block_num":135983035,"trx_id":"1846bd7ba701200aced3e0f9f408ead390a6b2800c33fc9bd8bf2794529070d4","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0963,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0963 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16189115113,"producer":"eosiodetroit","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T05:25:46.500","timestamp":"2021-08-20T05:25:46.500","block_num":135981498,"trx_id":"5d70335094ef3ec8dc38ed5b86229ab7913248f06f31c68c67f0571f8ac55771","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0804,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0804 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16187894594,"producer":"eosdacserver","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T05:13:41.500","timestamp":"2021-08-20T05:13:41.500","block_num":135980048,"trx_id":"4899f76a7f1c75b5b68e4ca32deb35ebe1227aa4d099155cc23e5da9ee512807","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0864,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0864 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16186753686,"producer":"ivote4waxusa","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T05:01:11.500","timestamp":"2021-08-20T05:01:11.500","block_num":135978548,"trx_id":"0a265f790e9c9b69a6e014863b26e7d464080642f573079e30055427cd987e84","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0827,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0827 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16185582406,"producer":"ledgerwiseio","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T04:48:54.500","timestamp":"2021-08-20T04:48:54.500","block_num":135977074,"trx_id":"48a99890818696b3f37a557a66833e915ea5f39883b5792bb9340f44c7bc8462","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1192,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1192 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16184498646,"producer":"teamgreymass","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T04:34:38.500","timestamp":"2021-08-20T04:34:38.500","block_num":135975362,"trx_id":"e20965f0c484aab386942f9422ec5861eb49fc044c9e1ce5879421da8a50fac5","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0551,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0551 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16183215828,"producer":"alohaeosprod","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T04:21:28.000","timestamp":"2021-08-20T04:21:28.000","block_num":135973781,"trx_id":"907e6d2e12b2b940d2de1a737b36974ee6cdba8936aa2637a44174a73eb54594","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0926,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0926 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16182028163,"producer":"nation.wax","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T04:09:34.500","timestamp":"2021-08-20T04:09:34.500","block_num":135972354,"trx_id":"582df6c7ad1a35dc92bc613f3edbc81dfe90418fbcef07f7c021a97c1fe5c5a3","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0332,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0332 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16180895325,"producer":"amsterdamwax","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T03:55:15.000","timestamp":"2021-08-20T03:55:15.000","block_num":135970635,"trx_id":"de44f7f252ef58d61aad457a238f5b1b2353d65399366173b466b68d1f140a00","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0855,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0855 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16179585969,"producer":"dapplica","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T03:43:06.000","timestamp":"2021-08-20T03:43:06.000","block_num":135969177,"trx_id":"d62902dc30e99f97cacc732eece682de9ef3026281a0496dc656a50b1a8cfc1c","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1106,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1106 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16178499600,"producer":"eosphereiobp","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T03:30:34.000","timestamp":"2021-08-20T03:30:34.000","block_num":135967673,"trx_id":"65bc4c2b2f9693f1648b50cd9bb3748eef6a6fc2c671813e3c1b8f5e5f89c682","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1152,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1152 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16177310761,"producer":"eosphereiobp","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T03:18:00.500","timestamp":"2021-08-20T03:18:00.500","block_num":135966166,"trx_id":"4720af0878b76ff2b5ec3178d111b7549e8997f283d729cd6c2c4b3ef5d95ee0","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0999,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0999 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16176088728,"producer":"eosriobrazil","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T03:05:02.500","timestamp":"2021-08-20T03:05:02.500","block_num":135964610,"trx_id":"90076bf3a2fdfe1e984faa92fd3b863ada68269338f185192a39911055fdbf83","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0913,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0913 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16174892696,"producer":"eosdacserver","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T02:52:30.000","timestamp":"2021-08-20T02:52:30.000","block_num":135963105,"trx_id":"da569642d5cf23500dbe0741614dced6707b47ff72924020a4e502035e4228db","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.108,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1080 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16173725832,"producer":"eosdublinwow","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T02:40:45.000","timestamp":"2021-08-20T02:40:45.000","block_num":135961695,"trx_id":"af1ef38748d92f310f2328a003ac304eddf22bea27a2d0a169261774a5d41820","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1095,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1095 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16172685018,"producer":"pink.gg","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T02:27:06.500","timestamp":"2021-08-20T02:27:06.500","block_num":135960058,"trx_id":"0318cdc3732f3dc4ad7dbc4d27556d27ed20e2bb2220e4a75e4e3034240eb254","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0848,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0848 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16171403279,"producer":"eosauthority","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T02:15:20.000","timestamp":"2021-08-20T02:15:20.000","block_num":135958645,"trx_id":"f9691aee4293de5c3df1fca66ad23c26423f48d28dfe02bb2d95681fb081d258","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.066,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0660 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16170360171,"producer":"liquidstudio","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T01:59:18.500","timestamp":"2021-08-20T01:59:18.500","block_num":135956722,"trx_id":"b00ab731757e51a2e22ec40142b1e425fcf6a041f7e2e967922811ad2b0ba158","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0482,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0482 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16168906665,"producer":"amsterdamwax","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T01:47:15.000","timestamp":"2021-08-20T01:47:15.000","block_num":135955275,"trx_id":"669773b0f1882b85501947dfaf41bcd62679f0321bf76d66e63759d030f73198","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1209,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1209 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16167770190,"producer":"eosauthority","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T01:35:28.500","timestamp":"2021-08-20T01:35:28.500","block_num":135953862,"trx_id":"5ea4f7563b7552f52a10b68180c9def1b3a335b3a62cb2b4518f1a99a4710623","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1513,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1513 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16166668155,"producer":"liquidstudio","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T01:23:32.500","timestamp":"2021-08-20T01:23:32.500","block_num":135952430,"trx_id":"d9b61629d258492237a09614f3b1f2af8d3aef4a9a6a3a65ab5461d5149ebed8","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1042,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1042 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16165623121,"producer":"alohaeosprod","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T01:11:49.500","timestamp":"2021-08-20T01:11:49.500","block_num":135951024,"trx_id":"6dbf4a837c6216b7f5c3805c22ae2ec18c04ca0d9dda5beefde15205a82e2346","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0624,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0624 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16164548532,"producer":"eosiodetroit","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T01:00:00.500","timestamp":"2021-08-20T01:00:00.500","block_num":135949606,"trx_id":"d87cde530825c9585da73d02f88f09cc42e6720957c52b65e5d968b22093dcf1","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0613,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0613 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16163421375,"producer":"teamgreymass","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T00:48:02.000","timestamp":"2021-08-20T00:48:02.000","block_num":135948169,"trx_id":"8440feff78940eb9216daefef52827995b1a0b8c2090746b2e93d61d69183068","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0711,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0711 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16162286534,"producer":"blokcrafters","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T00:35:36.000","timestamp":"2021-08-20T00:35:36.000","block_num":135946677,"trx_id":"60bb2da92f744aa9fefc5596f85dad48272d1f763f2a7034098566f990f534aa","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1134,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1134 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16161151666,"producer":"cryptolions1","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T00:22:20.000","timestamp":"2021-08-20T00:22:20.000","block_num":135945085,"trx_id":"0eccdbd137d04d4cc58ec44bacfff9d26b002f18eeea77fb4a709485a5f3a16e","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0996,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0996 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16159930579,"producer":"waxhiveguild","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-20T00:10:24.500","timestamp":"2021-08-20T00:10:24.500","block_num":135943654,"trx_id":"a5fdf03752b05bad27e635d05b3940cf4030b3b222f4b305d64cea24985e4220","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1237,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1237 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16158839996,"producer":"cryptolions1","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T23:56:33.000","timestamp":"2021-08-19T23:56:33.000","block_num":135941991,"trx_id":"59fa35e857f9edbe42c7283bfa55ae93c651e00907297a49c04226e8d684cd2d","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.156,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1560 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16157535530,"producer":"ivote4waxusa","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T23:44:35.000","timestamp":"2021-08-19T23:44:35.000","block_num":135940555,"trx_id":"d301a9c88d7b7601704bc4e6662a31fc9c879af10535f9f189567d6de5e6e3ac","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0694,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0694 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16156495368,"producer":"waxhiveguild","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T23:32:23.500","timestamp":"2021-08-19T23:32:23.500","block_num":135939092,"trx_id":"b96976921f5e606d662c0c574bd8658b1fccef321f6dd1966af4e2fb8145fd0b","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.104,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1040 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16155377764,"producer":"amsterdamwax","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T23:20:08.500","timestamp":"2021-08-19T23:20:08.500","block_num":135937622,"trx_id":"4de9e503dde024379c49efc308f0f10aecd64e181aa11abe8be2736ab5551b41","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0887,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0887 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16154259812,"producer":"dapplica","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T23:07:46.000","timestamp":"2021-08-19T23:07:46.000","block_num":135936137,"trx_id":"4d4a3fa1fa317939c355ebdf6356210e99831a0ffe3a03a5985ba69e06f6063a","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1000 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16153167388,"producer":"eosdacserver","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T22:55:20.000","timestamp":"2021-08-19T22:55:20.000","block_num":135934645,"trx_id":"51f0f41dc0b857157ac07797d83516e499526a6ed0f7de59bac5a83c9a5a3845","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0694,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0694 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16152108212,"producer":"eosiodetroit","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T22:43:04.000","timestamp":"2021-08-19T22:43:04.000","block_num":135933173,"trx_id":"8aab32d33c7cccab4df7932bfe7b4e137e29d7a35eb592d0126a769e5405df10","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0704,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0704 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16150969547,"producer":"ivote4waxusa","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T22:29:31.500","timestamp":"2021-08-19T22:29:31.500","block_num":135931548,"trx_id":"4c2b4b6d394a59dc6dacd9f5b253c18cb04e9fbb8110c0dad844a9a3363e8080","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0574,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0574 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16149683778,"producer":"bountyblokbp","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T22:17:37.000","timestamp":"2021-08-19T22:17:37.000","block_num":135930119,"trx_id":"27bdd2ca193a780b2ea6135cf92bbe867f0b6aaef9676e9cbeb844065a7a0282","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.17,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1700 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16148556965,"producer":"eosphereiobp","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T22:05:20.500","timestamp":"2021-08-19T22:05:20.500","block_num":135928646,"trx_id":"8a9224e715bac6fcfb040914ce5da483a65e67f3583b44b376da77a44d237181","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0522,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0522 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16147417806,"producer":"ledgerwiseio","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T21:53:31.000","timestamp":"2021-08-19T21:53:31.000","block_num":135927227,"trx_id":"7781a336cec5f69e419d9121ce6b34f7c403d4b3a149e2c49269a1a59a6f9fc6","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0297,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0297 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16146404661,"producer":"alohaeosprod","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T21:39:21.000","timestamp":"2021-08-19T21:39:21.000","block_num":135925527,"trx_id":"6e8de046f149660e7985c4a2c9bc0195fbf3c140e7efe4ca11484afa2ee27db9","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0312,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0312 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16145148176,"producer":"dapplica","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T21:25:47.000","timestamp":"2021-08-19T21:25:47.000","block_num":135923899,"trx_id":"19bc1312eceb281e18ee168ec146a23528da7ae8d75e8c872412f211b59c86ce","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0779,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0779 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16143888651,"producer":"pink.gg","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T21:12:45.500","timestamp":"2021-08-19T21:12:45.500","block_num":135922336,"trx_id":"5effbf90d131c05acc837fb6107ffee7afdddc31feb802bee83e8a0c68010adc","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0714,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0714 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16142641780,"producer":"ivote4waxusa","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T21:00:17.000","timestamp":"2021-08-19T21:00:17.000","block_num":135920839,"trx_id":"1fdce46cec9575cf0317010c616c43502fa9689888d8b4df664769a450549ef0","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.128,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1280 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16141511440,"producer":"ledgerwiseio","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T20:47:30.500","timestamp":"2021-08-19T20:47:30.500","block_num":135919306,"trx_id":"e1629c0476eb020badd0f46fa13d7ec2082fe260701db36d3fce7cf445382c10","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0343,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0343 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16140294666,"producer":"ivote4waxusa","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T20:35:17.500","timestamp":"2021-08-19T20:35:17.500","block_num":135917840,"trx_id":"c6ef4a3aaaca5a83276500b8843c1ea4a06363c76668caa82bde563b55711ddc","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.119,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1190 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16139154495,"producer":"nation.wax","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T20:22:35.500","timestamp":"2021-08-19T20:22:35.500","block_num":135916316,"trx_id":"015780619471223baca6fa163a5a0acf4158bc0d6327684816958d7f47e3960c","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1175,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1175 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16137962329,"producer":"liquidstudio","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T20:10:32.000","timestamp":"2021-08-19T20:10:32.000","block_num":135914869,"trx_id":"faec347edc9270abac620cc7fe6c93b878324f4dab687fb2efd13fe68c97d1fd","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1157,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1157 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16136839633,"producer":"3dkrenderwax","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T19:58:13.500","timestamp":"2021-08-19T19:58:13.500","block_num":135913392,"trx_id":"1bff5e31f07ab7fa4629866f925dab72ba4842089b63312e8efa33c9778bcb72","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0769,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0769 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16135689976,"producer":"blokcrafters","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T19:45:15.000","timestamp":"2021-08-19T19:45:15.000","block_num":135911835,"trx_id":"63cc6e9716b59c4cb840a78685738e2520f765ad083c8f448f6258961779ecf5","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0344,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0344 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16134499935,"producer":"waxswedenorg","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T19:30:26.500","timestamp":"2021-08-19T19:30:26.500","block_num":135910058,"trx_id":"7eb84d721f622d946b6c3285d879712991af5a5de41877dda762e62820e42cc4","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.129,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1290 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16133103278,"producer":"waxhiveguild","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T19:16:57.500","timestamp":"2021-08-19T19:16:57.500","block_num":135908440,"trx_id":"97aee4462fe68d07b29a65d7b662fe301d2c73f68856ff149c41a33287cccd03","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0297,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0297 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16131876077,"producer":"eosiodetroit","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T19:04:42.500","timestamp":"2021-08-19T19:04:42.500","block_num":135906970,"trx_id":"fdd5c5b2cb7a9a82b65b32640daef38000585da038f550d559781c29cc5d791f","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0807,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0807 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16130768331,"producer":"ledgerwiseio","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T18:52:32.000","timestamp":"2021-08-19T18:52:32.000","block_num":135905509,"trx_id":"988298845669ebcc5103a49a1ef784c5723db250081807f4e6b64153a3434730","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0636,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0636 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16129673523,"producer":"teamgreymass","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T18:39:46.500","timestamp":"2021-08-19T18:39:46.500","block_num":135903978,"trx_id":"aa4d9e7856ad8ad316a25165d2acc11f702e90bf05e07f4014bc0055f9ae1f70","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0766,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0766 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16128512697,"producer":"nation.wax","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T18:27:52.500","timestamp":"2021-08-19T18:27:52.500","block_num":135902550,"trx_id":"6e3103580d2f6de5e5b8778e53c85ef3fca53307d76d1fd392fe1135390705de","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1163,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1163 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16127443259,"producer":"amsterdamwax","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T18:15:50.500","timestamp":"2021-08-19T18:15:50.500","block_num":135901106,"trx_id":"ad7f7f8a9703947e9088adb1e8ef0f6d19d721c171b3e2494fc12b510248f3e1","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.2167,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.2167 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16126320260,"producer":"eosdacserver","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T18:03:45.500","timestamp":"2021-08-19T18:03:45.500","block_num":135899656,"trx_id":"f6bc8a2aedf97325052140462d6412b6d22234db9943931c8028091ed8c03c11","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0451,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0451 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16125183056,"producer":"ivote4waxusa","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T17:51:52.500","timestamp":"2021-08-19T17:51:52.500","block_num":135898230,"trx_id":"ec5df7b155c37eb59ee0effcdf2306ee09d9b742da23dc790742accfcdcef5ac","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0761,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0761 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16124129975,"producer":"waxswedenorg","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T17:39:50.000","timestamp":"2021-08-19T17:39:50.000","block_num":135896785,"trx_id":"cbb1c9311acef4d232f4350ccf58c31dc43b2c0b25e06c45c668d1d02415a193","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1862,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1862 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16123048511,"producer":"cryptolions1","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T17:27:30.500","timestamp":"2021-08-19T17:27:30.500","block_num":135895306,"trx_id":"31ac71ac7eeeeaea2f0c02bc0991a31fddb936544f19fa610f634637303d8346","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.1686,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.1686 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16121970407,"producer":"eosdacserver","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T17:14:25.500","timestamp":"2021-08-19T17:14:25.500","block_num":135893736,"trx_id":"6e14b842af93342adbb21c0d17ea7e9e0a188a3fa41d36dad233eddb473579fe","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.0367,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0367 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16120772713,"producer":"blokcrafters","action_ordinal":2,"creator_action_ordinal":1},{"@timestamp":"2021-08-19T17:01:50.000","timestamp":"2021-08-19T17:01:50.000","block_num":135892225,"trx_id":"68d7d55bdcc2015af79adc1240260708a52ba00b9ffbb84eff2ace31975a3153","act":{"account":"alien.worlds","name":"transfer","authorization":[{"actor":"m.federation","permission":"xfer"}],"data":{"from":"m.federation","to":"dqduq.wam","amount":0.09,"symbol":"TLM","memo":"ALIEN WORLDS - Mined Trilium","quantity":"0.0900 TLM"}},"notified":["alien.worlds","m.federation","dqduq.wam"],"global_sequence":16119704551,"producer":"blokcrafters","action_ordinal":2,"creator_action_ordinal":1}]
-}
+let now=new Date();
+let nowDate=now.getFullYear()+'-'+'0'+(now.getMonth()+1)+'-'+now.getDate();
+console.log(nowDate);
+console.log(typeof(nowDate));
+document.querySelector(".date-input").setAttribute("value", nowDate);
 // khoi tao mạc dinh các object date và time
-let date={
-    day:0,
-    month:0,
-    year:0
-}
-let time={
-    hour:0,
-    minute:0,
-    second:0
+let date = {
+  day: 0,
+  month: 0,
+  year: 0,
+};
+let time = {
+  hour: 0,
+  minute: 0,
+  second: 0,
 };
 // check có cùng ngày không
-function checkDate(sessions,session){
-    console.log(sessions.length);
-    for(let i=0;i<sessions.length;i++){
-        if(sessions[i].date.day==session.date.day && sessions[i].date.month==session.date.month && sessions[i].date.year==session.date.year){
-            return i;
-        }
+function checkDate(sessions, session) {
+  console.log(sessions.length);
+  for (let i = 0; i < sessions.length; i++) {
+    if (
+      sessions[i].date.day == session.date.day &&
+      sessions[i].date.month == session.date.month &&
+      sessions[i].date.year == session.date.year
+    ) {
+      return i;
     }
-    return -1;
+  }
+  return -1;
 }
 
 // check có giờ không
-function checkHour(sessions,session){
-    for(let i=0;i<sessions.length;i++){
-        if(sessions[i].time.hour==session.time.hour){
-            if(sessions[i].date.day==session.date.day && sessions[i].date.month==session.date.month && sessions[i].date.year==session.date.year){
-                return i;
-            }
-        }
+function checkHour(sessions, session) {
+  for (let i = 0; i < sessions.length; i++) {
+    if (sessions[i].time.hour == session.time.hour) {
+      if (
+        sessions[i].date.day == session.date.day &&
+        sessions[i].date.month == session.date.month &&
+        sessions[i].date.year == session.date.year
+      ) {
+        return i;
+      }
     }
-    return -1;
+  }
+  return -1;
 }
 // dùng fetch để get data
-async function getData(apiURL){
-    const response =await fetch(apiURL);
-    const data=await response.json();
-    return data;
+async function getData(apiURL) {
+  const response = await fetch(apiURL);
+  const data = await response.json();
+  return data;
 }
 // dung axios để get data
 async function getJSONAsync(apiURL) {
-
-    // The await keyword saves us from having to write a .then() block.
+  // The await keyword saves us from having to write a .then() block.
+  try {
     let json = await axios.get(apiURL);
     // The result of the GET request is available in the json variable.
     // We return it just like in a regular synchronous function.
     return json;
-    
+  } catch (error) {
+    return;
+  }
 }
-function drawChart(){
-    let changeBtn=document.querySelector('.change');
-    changeBtn.addEventListener('click',function(e){
-        let totalCoin=0.0000;//tổng coin đào được
-        let sessions=[];//dùng để chứa lượng coin đào được qua các giờ từ 0-->23
-        let count=0;//tổng lượt đào
-        let account = document.querySelector(".account").value;
-        console.log(account);
-        if(account==="") return;
-        let input = document.querySelector(".date-input").value;
-        let dateEntered = new Date(input);
-        document.querySelector(".date-input").setAttribute('value',input);
-        let today=dateEntered.getDate();
-        // list web để get API
-        let URLGetData=[
-            'https://wax.cryptolions.io',
-            'https://wax.eu.eosamsterdam.net',
-            'https://api.wax.alohaeos.com',
-            'https://wax.eu.eosamsterdam.net',
-            'https://wax.eosphere.io',
-            'https://api.waxsweden.org'
-        ]
-        // radom url
-        let random=Math.random();
-        console.log('URL get data length: ',URLGetData.length);
-        let indexAPI=((random*100).toFixed(0))%URLGetData.length;
-        console.log('indexAPI',indexAPI);
-        // for(let i=0;i<URLGetData.length;i++){
-            let indexNew=(indexAPI)%URLGetData.length;
-            console.log('indexNew',indexNew);
-            let apiURL=URLGetData[indexNew]+"/v2/history/get_actions?account="+account+"&skip=0&limit=300&sort=desc&transfer.to="+account+"&transfer.from=m.federation&after="+input+"T00:00:00.000Z&before="+input+"T23:59:59.999Z";
-            let data2=getJSONAsync(apiURL);
-            // sẽ chạy code dưới khi data được get thành công
-            data2.then(Response=>{
-                let data=Response.data;
 
-                for(let i=0;i<data.actions.length;i++){ 
-                    let session={
-                        date:{
-                            day:0,
-                            month:0,
-                            year:0
-                        },
-                        time:{
-                            hour:0,
-                            minute:0,
-                            second:0
-                        },
-                        amount:0
-                    };
-                    let str=data.actions[i].timestamp.split('T')
-                    let property_date=str[0].split('-');
-                    let property_time=str[1].split(':');
-                    if(str[0]==input){
-                        count++;
-                    }
-                    session.date={
-                        day:property_date[2],
-                        month:property_date[1],
-                        year:property_date[0]
-                    };
-                    session.time={
-                        hour:property_time[0],
-                        minute:property_time[1],
-                        second:property_time[2]
-                    };
-                    let index=checkHour(sessions,session);
-                    if (index!==-1){
-                        // nếu cùng giờ thì cộng thêm vào amount
-                        if(property_time[0]===sessions[index].time.hour){
-                            sessions[index].amount+=data.actions[i].act.data.amount;
-                        }
-                        // nếu khác thì cập nhật session mới
-                        else {
-                            session.amount=data.actions[i].act.data.amount;
-                            sessions.push(session);
-                        }
-                    }
-                    else {
-                        session.amount=data.actions[i].act.data.amount;
-                        sessions.push(session);
-                    }
-                }
-                // tao 1 mảng mới để lưu lượng coin đào được qua từng giờ
-                let amountArray=[];
-                const sessionsLeght=sessions.length;
-                for(let i=sessionsLeght-1;i>=0;i--){
-                    // console.log(sessions[i]);
-                    if(sessions[i].date.day==today){
-                        for(let j=amountArray.length;j<sessions[i].time.hour;j++){
-                            amountArray.push(0);
-                        }
-                        amountArray.push(sessions[i].amount);
-                        totalCoin+=sessions[i].amount;
-                    }
-                }
-                for(let i=amountArray.length;i<24;i++){
-                    amountArray.push(0);
-                }
-                let valueTotalTLM=document.querySelector('.card-view__item.tlm').querySelector('.value');
-                valueTotalTLM.innerHTML=totalCoin.toFixed(4);
-                let valueTotalUSD=document.querySelector('.card-view__item.usd').querySelector('.value');
-                valueTotalUSD.innerHTML='$'+(totalCoin*0.295).toFixed(2);
-                let valueCount=document.querySelector('.card-view__item.count').querySelector('.value');
-                valueCount.innerHTML=count;
-                // delete current chart
-                myBarChart.destroy();
-                // create new chart
-                myBarChart=new Chart("myChart", {
-                    type: "bar",
-                    data:{
-                        labels: hourArray,
-                        datasets: [{
-                            backgroundColor: "#49d994",
-                            data: amountArray
-                        }]
-                    },
-                    options: {
-                        legend: {display: false},
-                        title: {
-                            display: true,
-                            text: "TLM Earned"+" "+today
-                        }
-                    }
-                });
+async function getAccountData(account, date) {
+  // list web để get API
+  let URLGetData = [
+    "https://wax.eosphere.io",
+    "https://wax.cryptolions.io",
+    "https://wax.eu.eosamsterdam.net",
+    "https://api.wax.alohaeos.com",
+    "https://wax.eu.eosamsterdam.net",
+    "https://api.waxsweden.org",
+  ];
+  for (url of URLGetData) {
+    let apiURL =
+      url +
+      "/v2/history/get_actions?account=" +
+      account +
+      "&skip=0&limit=300&sort=desc&transfer.to=" +
+      account +
+      "&transfer.from=m.federation&after=" +
+      date +
+      "T00:00:00.000Z&before=" +
+      date +
+      "T23:59:59.999Z";
+    let response = await getJSONAsync(apiURL);
+    if (response) return response.data;
+  }
+}
 
-            });
-        // }
-        
+function drawChart() {
+  let totalCoin = 0.0; //tổng coin đào được
+  let sessions = []; //dùng để chứa lượng coin đào được qua các giờ từ 0-->23
+  let count = 0; //tổng lượt đào
+  let account = document.querySelector(".account").value;
+  console.log(account);
+  if (account === "") return;
+  let input = document.querySelector(".date-input").value;
+  let dateEntered = new Date(input);
+  document.querySelector(".date-input").setAttribute("value", input);
+  let today = dateEntered.getDate();
+
+  getAccountData(account, input).then((data) => {
+    for (let i = 0; i < data.actions.length; i++) {
+      let session = {
+        date: {
+          day: 0,
+          month: 0,
+          year: 0,
+        },
+        time: {
+          hour: 0,
+          minute: 0,
+          second: 0,
+        },
+        amount: 0,
+      };
+      let str = data.actions[i].timestamp.split("T");
+      let property_date = str[0].split("-");
+      let property_time = str[1].split(":");
+      if (str[0] == input) {
+        count++;
+      }
+      session.date = {
+        day: property_date[2],
+        month: property_date[1],
+        year: property_date[0],
+      };
+      session.time = {
+        hour: property_time[0],
+        minute: property_time[1],
+        second: property_time[2],
+      };
+      let index = checkHour(sessions, session);
+      if (index !== -1) {
+        // nếu cùng giờ thì cộng thêm vào amount
+        if (property_time[0] === sessions[index].time.hour) {
+          sessions[index].amount += data.actions[i].act.data.amount;
+        }
+        // nếu khác thì cập nhật session mới
+        else {
+          session.amount = data.actions[i].act.data.amount;
+          sessions.push(session);
+        }
+      } else {
+        session.amount = data.actions[i].act.data.amount;
+        sessions.push(session);
+      }
+    }
+    let amountArray = [];// tao 1 mảng mới để lưu lượng coin đào được qua từng giờ
+    const sessionsLeght = sessions.length;
+    for (let i = sessionsLeght - 1; i >= 0; i--) {
+      // console.log(sessions[i]);
+      if (sessions[i].date.day == today) {
+        for (let j = amountArray.length; j < sessions[i].time.hour; j++) {
+          amountArray.push(0);
+        }
+        amountArray.push(sessions[i].amount);
+        totalCoin += sessions[i].amount;
+      }
+    }
+    for (let i = amountArray.length; i < 24; i++) {
+      amountArray.push(0);
+    }
+    let valueTotalTLM = document
+      .querySelector(".card-view__item.tlm")
+      .querySelector(".value");
+    valueTotalTLM.innerHTML = totalCoin.toFixed(4);
+    let valueTotalUSD = document
+      .querySelector(".card-view__item.usd")
+      .querySelector(".value");
+    valueTotalUSD.innerHTML = "$" + (totalCoin * 0.295).toFixed(2);
+    let valueCount = document
+      .querySelector(".card-view__item.count")
+      .querySelector(".value");
+    valueCount.innerHTML = count;
+    // delete current chart
+    myBarChart.destroy();
+    // create new chart
+    myBarChart = new Chart("myChart", {
+      type: "bar",
+      data: {
+        labels: hourArray,
+        datasets: [
+          {
+            backgroundColor: "#49d994",
+            data: amountArray,
+          },
+        ],
+      },
+      options: {
+        legend: { display: false },
+        title: {
+          display: true,
+          text: "TLM Earned" + " " + today,
+        },
+      },
     });
+
+    // }
+  });
 }
 
 // khởi tạo mặc định giờ giờ và coin
-let hourArray=[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23];
-let amountArray=[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];
+let hourArray = [
+  0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21,
+  22, 23,
+];
+let amountArray = [
+  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+];
 // tạo mặc định 1 bar chart
-let myBarChart=new Chart("myChart", {
-    type: "bar",
-    data:{
-        labels: hourArray,
-        datasets: [{
-            backgroundColor: "#49d994",
-            data: amountArray
-        }]
+let myBarChart = new Chart("myChart", {
+  type: "bar",
+  data: {
+    labels: hourArray,
+    datasets: [
+      {
+        backgroundColor: "#49d994",
+        data: amountArray,
+      },
+    ],
+  },
+  options: {
+    legend: { display: false },
+    title: {
+      display: true,
+      text: "TLM Earned",
     },
-    options: {
-        legend: {display: false},
-        title: {
-            display: true,
-            text: "session"
-        }
-    }
+  },
 });
 drawChart();
-
-
-
-// -------------------------------------------------//
-// code sử dụng data copy từ web về để test         //
-// -------------------------------------------------//
-
-// let myChart=document.getElementById('myChart');
-// let changeBtn=document.querySelector('.change');
-// changeBtn.addEventListener('click',function(e){
-//     let sessions=[];
-//     let input = document.querySelector(".date-input").value;
-//     let dateEntered = new Date(input);
-//     document.querySelector(".date-input").setAttribute('value',input);
-//     let today=dateEntered.getDate();
-//     let count=0;
-    
-//     for(let i=0;i<data_test.actions.length;i++){
-//         let session={
-//             date:{
-//                 day:0,
-//                 month:0,
-//                 year:0
-//             },
-//             time:{
-//                 hour:0,
-//                 minute:0,
-//                 second:0
-//             },
-//             amount:0
-//         };
-//         let str=data_test.actions[i].timestamp.split('T')
-//         let property_date=str[0].split('-');
-//         let property_time=str[1].split(':');
-//         if(str[0]==input){
-//             count++;
-//         }
-//         session.date={
-//             day:property_date[2],
-//             month:property_date[1],
-//             year:property_date[0]
-//         };
-//         session.time={
-//             hour:property_time[0],
-//             minute:property_time[1],
-//             second:property_time[2]
-//         };
-//         let index=checkHour(sessions,session);
-//         if (index!==-1){
-//             // nếu cùng giờ thì cộng thêm vào amount
-//             if(property_time[0]===sessions[index].time.hour){
-//                 sessions[index].amount+=data_test.actions[i].act.data.amount;
-//             }
-//             // nếu khác thì cập nhật session mới
-//             else {
-//                 session.amount=data.actions[i].act.data.amount;
-//                 sessions.push(session);
-//             }
-//         }
-//         else {
-//             session.amount=data_test.actions[i].act.data.amount;
-//             sessions.push(session);
-//         }
-//     }
-//     let amountArray=[];
-//     let account = document.querySelector(".account").value;
-//     console.log(account);
-//     if(account==="") return;
-//     let totalCoin=0.0000;
-//     const sessionsLeght=sessions.length;
-//     for(let i=sessionsLeght-1;i>=0;i--){
-//         if(sessions[i].date.day==today){
-//             for(let j=amountArray.length;j<sessions[i].time.hour;j++){
-//                 amountArray.push(0);
-//             }
-//             amountArray.push(sessions[i].amount);
-//             totalCoin+=sessions[i].amount;
-//             console.log(sessions[i].amount);
-//             console.log(totalCoin);
-
-//         }
-//     }
-//     for(let i=amountArray.length;i<24;i++){
-//         amountArray.push(0);
-//     }
-//     // update card-view
-//     console.log(totalCoin);
-
-//     let valueTotalTLM=document.querySelector('.card-view__item.tlm').querySelector('.value');
-//     valueTotalTLM.innerHTML=totalCoin.toFixed(4);
-//     let valueTotalUSD=document.querySelector('.card-view__item.usd').querySelector('.value');
-//     valueTotalUSD.innerHTML='$'+(totalCoin*0.295).toFixed(2);
-//     let valueCount=document.querySelector('.card-view__item.count').querySelector('.value');
-//     valueCount.innerHTML=count;
-//     totalCoin=0.0000;
-//     console.log(totalCoin);
-//     // delete current chart
-//     myBarChart.destroy();
-//     // create new chart
-//     myBarChart=new Chart("myChart", {
-//         type: "bar",
-//         data:{
-//             labels: hourArray,
-//             datasets: [{
-//                 backgroundColor: "#49d994",
-//                 data: amountArray
-//             }]
-//         },
-//         options: {
-//             legend: {display: false},
-//             title: {
-//                 display: true,
-//                 text: "session"+" "+today
-//             }
-//         }
-//     });
-// });
-
