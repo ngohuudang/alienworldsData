@@ -194,7 +194,7 @@ function drawChart() {
         legend: { display: false },
         title: {
           display: true,
-          text: "TLM Earned" + " " + today,
+          text: "TLM Earned" + " " + input,
         },
       },
     });
